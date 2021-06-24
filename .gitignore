@@ -130,4 +130,4 @@ dmypy.json
 
 
 # ReactDjango
-React_Django/my_settings.py
+React_Django/mysite/my_settings.py
