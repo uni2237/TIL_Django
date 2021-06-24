@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+
 import my_settings as my_settings
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -21,13 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = my_settings.SECRET_KEY
+SECRET_KEY = 'lcrm2f&nbkbha@&3o+ghw$rlp(fz_*4do_detdst_kijem63_h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = [] 애플리케이션 배포 시 PythonAnywhere의 호스트 이름과 일치하지 않으므로 위와 같이 변경
+
 
 # Application definition
 
@@ -75,9 +76,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-
 DATABASES = my_settings.DATABASES
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -101,11 +100,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-#LANGUAGE_CODE = 'en-us' -> 관리자 화면 영어
-LANGUAGE_CODE = 'ko' # -> 관리자 화면 한글
+#LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko'
 
-
-TIME_ZONE = 'Asia/Seoul'
+#TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul' 
 
 USE_I18N = True
 
@@ -118,4 +117,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') 

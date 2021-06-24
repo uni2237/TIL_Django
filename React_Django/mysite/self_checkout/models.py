@@ -4,7 +4,7 @@ from django.utils import timezone
 
 
 class Item_Info(models.Model):
-    pid =  models.IntegerField()
+    pid =  models.CharField(max_length=200,null=False, primary_key=True)
     category_L = models.IntegerField()
     name = models.CharField(max_length=200)
     value = models.IntegerField()
