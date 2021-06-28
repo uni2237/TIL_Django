@@ -118,3 +118,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
+
+# 사용자가 업로드한 데이터 파일 저장될 주소
+#MEDIA_URL = '/mysite/self_checkout/data/' #각 media 파일에 대한 url 고정값
+#MEDIA_ROOT=os.path.join(BASE_DIR, 'self_checkout/static') # 미디어 파일이 저장될 경로 설정
