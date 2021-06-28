@@ -14,3 +14,5 @@ DATABASES = {
         }
     }
 }
+
+SECRET_KEY = 'lcrm2f&nbkbha@&3o+ghw$rlp(fz_*4do_detdst_kijem63_h'
