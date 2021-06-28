@@ -129,5 +129,8 @@ dmypy.json
 .pyre/
 
 
-# ReactDjango
-React_Django/mysite/my_settings.py
+# Django_origin
+Django_origin/mysite/my_settings.py
+
+# Django_rest
+Django_rest/rest_settings.py
