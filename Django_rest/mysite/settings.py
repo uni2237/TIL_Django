@@ -12,8 +12,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+<<<<<<< HEAD
 import rest_settings as rest_settings
 
+=======
+>>>>>>> f0e0549ed4a93c2bc6dbc7d695e1c5aa2612a1a0
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,7 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = rest_settings.SECRET_KEY
+=======
+SECRET_KEY = 'django-insecure-epa&tr(j&n=ypxbwy-(51ltc*otc=8s)gyv(#4!09ov5hq51fr'
+>>>>>>> f0e0549ed4a93c2bc6dbc7d695e1c5aa2612a1a0
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
