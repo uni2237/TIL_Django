@@ -133,4 +133,7 @@ dmypy.json
 Django_origin/mysite/my_settings.py
 
 # Django_rest
-Django_rest/rest_settings.py
+Django_rest/mysite/rest_settings.py
+
+#boiler-plate
+boiler-plate/node_modules/
