@@ -1,4 +1,4 @@
-TIL - Today I Learned
+TIL - Today I Learned (Django)
 
 1. Django_origin  
    장고 기본    
